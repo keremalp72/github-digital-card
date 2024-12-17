@@ -13,17 +13,24 @@
         <img src="assets/images/devfinder.svg" alt="" />
         <div class="theme-container">
           <h3>LIGHT</h3>
-          <img src="assets/images/whiteBtn.svg" alt="" />
+          <a id="themeBtn" href="#"><img src="assets/images/whiteBtn.svg" alt="" /></a>
         </div>
       </div>
+      <form id="filterForm" autocomplete="off">
       <div class="input-container">
-        <span><img src="assets/images/search.svg" alt="" /></span
-        ><input type="text" placeholder="Search GitHub username…" /><span
-          ><button>Search</button></span
-        >
+        <span><img src="assets/images/search.svg" alt="" /></span>
+        <input
+        name="usernameInput"
+         id="usernameInput" 
+         type="text" 
+         placeholder="Search GitHub username…" />
+         <span>
+          <button type="submit">Search</button>
+          </span>
       </div>
-      <div class="user-data-container">
-        <div class="user">
+      </form>
+      <div id="users" class="user-data-container">
+        <!-- <div class="user">
           <div class="user-profile">
             <img src="assets/images/userimg.svg" alt="" />
             <div class="user-date">
@@ -40,27 +47,27 @@
           </div>
 
           <div class="user-fallow-container">
-            <div class="repos">
-              <p>repos</p>
+            <div class="user-item">
+              <p>Repos</p>
               <h3>8</h3>
             </div>
-            <div class="fallowers">
+            <div class="user-item">
               <p>Fallowers</p>
               <h3>3938</h3>
             </div>
-            <div class="fallowing">
+            <div class="user-item">
               <p>Fallowing</p>
               <h3>9</h3>
             </div>
           </div>
           <div class="user-info-container">
             <div class="item">
-              <img src="assets/images/konum.svg" alt="" /><span
+              <img src="assets/images/konum-dark.svg" alt="" /><span
                 >san francisco</span
               >
             </div>
             <div class="item">
-              <img src="assets/images/link.svg" alt="" /><span
+              <img src="assets/images/link-dark.svg" alt="" /><span
                 >san francisco</span
               >
             </div>
@@ -70,12 +77,12 @@
               >
             </div>
             <div class="item">
-              <img src="assets/images/bina.svg" alt="" /><span
+              <img src="assets/images/bina-dark.svg" alt="" /><span
                 >san francisco</span
               >
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </body>

@@ -4,8 +4,8 @@ body {
   font-family: "Space Mono", monospace;
 }
 .container {
-  background-color: #141d2f;
   padding: 31px 24px 79px;
+  background-color: #141d2f;
 }
 .header {
   display: flex;
@@ -56,4 +56,77 @@ body {
   background-color: #1e2a47;
   padding: 32px 24px 48px;
   border-radius: 15px;
+}
+.user {
+  color: white;
+}
+.user-profile {
+  display: flex;
+  gap: 20px;
+  height: 70px;
+  margin-bottom: 33px;
+}
+.user-date {
+  height: 69px;
+}
+.user-date h2 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23.7px;
+}
+.user-date h3 {
+font-size: 13px;
+font-weight: 400;
+line-height: 19.25px;
+color: #0079FF;
+margin-bottom: 6px;
+}
+.user-date p {
+font-size: 13px;
+font-weight: 400;
+line-height: 19.25px;
+}
+.user-text {
+font-size: 13px;
+font-weight: 400;
+line-height: 25px;
+margin-bottom: 23px;
+}
+.user-fallow-container {
+  display: flex;
+  background-color: #141D2F;
+  padding: 18px 15px;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+.user-item p{
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16.29px;
+}
+.user-item h3 {
+font-size: 16px;
+font-weight: 700;
+line-height: 23.7px;
+}
+.user-fallow-container h3 {
+text-align: center;
+}
+.user-info-container {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap:16px ;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.item span {
+font-size: 13px;
+font-weight: 400;
+line-height: 19.25px;
 }
